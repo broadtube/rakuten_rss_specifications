@@ -1,4 +1,4 @@
-# RssCancelOrder 完全仕様書
+# RssCancelOrder 非公式テスト確認仕様
 
 ## 概要
 **関数名**: RssCancelOrder  
@@ -24,7 +24,7 @@ RssCancelOrder_V(発注ID, 注文番号)
 | No | パラメータ名 | データ型 | 必須/任意 | 説明 |
 |----|------------|----------|-----------|------|
 | 1 | 発注ID | number | ● | Excelから注文を一意に識別するための番号<br>(1以上2147483647以下の数値で入力) |
-| 2 | 発注トリガー | number | ● | 1(True):発注, 0(False):待機<br>（Excel版のみ、VBA版では不要） |
+| 2 | 発注トリガー | number | ● | 0(False):待機, 1(True):発注<br>省略時は0(False):待機<br>直接True/Falseを入力可、数式入力も可<br>（Excel版のみ、VBA版では不要） |
 | 3 | 注文番号 | number | ● | 取消対象明細の注文番号を入力 |
 
 **凡例**: ● 必須

@@ -1,4 +1,4 @@
-# RssFOPMarketDes 完全仕様書
+# RssFOPMarketDes 非公式テスト確認仕様
 
 ## 概要
 **関数名**: RssFOPMarketDes  

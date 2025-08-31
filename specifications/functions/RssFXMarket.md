@@ -1,4 +1,4 @@
-# RssFXMarket 完全仕様書
+# RssFXMarket 非公式テスト確認仕様
 
 ## 概要
 **関数名**: RssFXMarket  
